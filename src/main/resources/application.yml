@@ -3,3 +3,9 @@ server:
 
 spring:
   application.name: temperature-processing
+
+  rabbitmq:
+    host: ${HOST}
+    port: ${PORT}
+    username: ${USER}
+    password: ${PASSWORD}
